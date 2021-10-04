@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <img id="metro_map" src="images/wmata system map1.png" alt="WMATA system map">
+  <title>DC Metro Train Arrivals</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script defer src = "index.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" 
+      type="image/png"
+      dataset="src=icons8.com" 
+      href="images/train.png">
+  <title>DC Metro Train Arrivals</title>
+</head>
+<body>
+  <div id="header">
+    <h1 id="header">DC Metro Train Arrivals</h1>
+	</div>
+    </div>
+    <div id="station list">
+    </div>
+    <div id="station-summary-container">
+      <h3 id="selection">Select Your Station</h3>
+      <div id="station-info">
+      </div>
+    </div>
+	<select required id="dropdown">
+    		<option value="" disabled selected hidden>select your station</option>
+  	</select>
+<br>
+</br>
+<div id='dotBody'>
+    <a id='red_line'>RD</a>
+    <a id='orange_line'>OR</a>
+    <a id='blue_line'>BL</a>
+    <a id='green_line'>GR</a>
+    <a id='yellow_line'>YL</a>
+    <a id='silver_line'>SV</a>
+</div>
+<div id=table-comment-container>
+      <h1 id='tableHeader'>Next Trains Arriving at Your Station</h1>
+	<table id='tableLocOne'></table>
+     <!-- table goes here -->
+    <div id=refreshButtonTableLoc></div>
+     <!-- refresh table button loc -->
+  </div>
+  <br>
+  </br>
+  <footer>
+    <p>Created by: Shawn Choi, Alec Magnet, Eli Robbins</p>
+  </footer>
+</body>
+
+  </html>
+  
+
+<!-- 
+Primary key 67fa915898d4453abe846872018ea038
+Secondary Key  0b9e9ba5ada140b0af57479aa091da21  -->

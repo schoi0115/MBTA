@@ -1,0 +1,120 @@
+#rating { 
+    font-size: 0;
+    top: 10%;
+}
+#rating span { 
+    font-size: 40px;
+ }
+#rating span::before { content: "★"; }
+#rating span:hover { cursor: pointer; }
+#rating {color : grey}
+#metro_map{
+    position: absolute;
+    left: 100%;
+    width: 600px;  
+    max-width: 100%;
+
+}
+
+body{
+    position: absolute;
+    width: 600px;
+    text-align: center;
+    background-color: #f5f3f0    ;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+
+
+}
+
+.comments{
+    list-style-type: none;
+    text-align: center;
+    width: 510px;
+}
+#tableLocOne{
+    text-align: center;
+    width: 575px;
+    height: 10px;
+}
+
+#refreshButtonTableLoc{
+    padding-top: 10px;
+}
+#tableHeader{
+    font-size: 24px;
+}
+
+.announce{
+    height: 0;
+    font-size: 17px;
+}
+
+#red_line{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 100%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: white;
+    bottom : 50px;
+}
+#orange_line{
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: white    
+}
+#blue_line{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: white    
+}
+#green_line{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: white    
+}
+#yellow_line{
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: black
+}
+#silver_line{
+    height: 40px;
+    width: 40px;
+    background-color: silver;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    font-family: Sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+
